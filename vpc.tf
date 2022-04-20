@@ -2,7 +2,7 @@ module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "~> 3.0"
 
-    project_id   = "var.project"
+    project_id   = "p-dkbal56bi8rcwwtdnmlv55yc6qhe"
     network_name = "derek-vnet"
     routing_mode = "GLOBAL"
 
